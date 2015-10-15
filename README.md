@@ -1,2 +1,2 @@
-# qhttpd
-Networks and Communications Course - HTTP server assignment
+# qhttpd HTTP Server
+Networks and Communications Course - HTTP Server Assignment
