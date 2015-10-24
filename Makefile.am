@@ -1,4 +1,6 @@
 CC=cc
+CFILES=main.c network.c http.c
+OBJ=qhttpd
 
 all-local:
-	$(CC) main.c -o qhttpd
+	$(CC) $(CFILES) -o $(OBJ) && ./$(OBJ) 8080
